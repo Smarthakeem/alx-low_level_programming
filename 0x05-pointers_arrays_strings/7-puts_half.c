@@ -18,11 +18,11 @@ l = i;
 return (l);
 }
 
-/**
+/*
 * puts_half -  prints half of a string
 * @str: a pointer to string
 * Return: string
-**/
+*/
 
 void puts_half(char *str)
 {

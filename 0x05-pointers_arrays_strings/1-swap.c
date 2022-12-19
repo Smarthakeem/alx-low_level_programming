@@ -1,21 +1,16 @@
 #include "main.h"
-
 /**
-* print_rev -> printing a string in reverse
-* @s: the string to be printed in rev
+* swap_int - swaps the value of int a and int b
+* Owned by Bwave/Bright
+* @a: first int
+* @b: second int
+* Return 0
 */
-
-void print_rev(char *s)
+void swap_int(int *a, int *b)
 {
-	int i, n;
+		int s;
 
-	n = 0;
-	while (s[n] != '\0')
-		n++;
-
-	for (i = n - 1; i >= 0; i--)
-	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
+		s = *a;
+		*a = *b;
+		*b = s;
 }

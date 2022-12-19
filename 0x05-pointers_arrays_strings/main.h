@@ -1,30 +1,29 @@
-#include <stdio.h>
+#ifndef MAIN_H
 
+#define MAIN_H
 
+int _putchar(char c);
 
-void _puts(char *);
+void reset_to_98(int *n);
 
+void swap_int(int *a, int *b);
 
+int _strlen(char *s);
 
-/**
- *
- *  * main - check the code for Holberton School students.
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+void _puts(char *str);
 
-int main(void)
+void print_rev(char *s);
 
-{
+void rev_string(char *s);
 
-	char *str;
+void puts2(char *str);
 
-	str = "Holberton!";
-	_puts(str);
+void puts_half(char *str);
 
-return (0);
+void print_array(int *a, int n);
 
-}
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *s);
+
+#endif

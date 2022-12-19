@@ -19,5 +19,3 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
-Footer
-© 2022 GitHub, Inc.
